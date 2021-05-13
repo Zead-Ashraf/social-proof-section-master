@@ -1,0 +1,307 @@
+body{
+    width: 99%;
+    font-size: 15px;
+
+}
+
+div.container {
+    width: 80%;
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 6em auto;
+}
+
+/* *********************************start head***********************************/
+
+div.header {
+    margin-top: 3em;
+    width: 45%;
+    display: inline-block;
+}
+
+h1 {
+    width: 70%;
+    font-family: 'Spartan', sans-serif;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+div.container div.header p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+
+}
+/*****************************************/
+
+@media (max-width: 767px) {
+    div.header{
+        width: 92%;
+        display: block;
+        margin: 1em;
+        text-align: center;
+
+    }
+    div.container div.header h1{
+        width: 83%;
+        margin: 1em;
+        margin-top: 0;
+    }
+
+}
+/***************************************/
+
+/******************************************End head************************************/
+
+
+/*rates*/
+
+
+div.rates {
+    width: 43%;
+}
+
+
+
+div.container div.rates h2 {
+    display: inline;
+    font-size: 1rem;
+    padding-left: 1em;
+    color: hsl(300, 43%, 22%);
+}
+@media (max-width: 767px) {
+    div.rates {
+        float:none;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* start rate */
+
+div.rate1{
+    width: 100%;
+    margin-top: 5em; 
+}
+
+div.rate2{
+    width: 93%;
+    margin-top: 3em; 
+}
+
+div.rate3{
+    width: 86%;
+    margin-top: 3em; 
+}
+
+
+
+@media (max-width: 767px){
+    div.rate1{
+        width: 100%;
+        margin-top: 3em;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    
+    div.rate2{
+        width: 100%;
+        margin-top: 3em;
+        display: block;
+        text-align: center;
+ 
+    }
+    
+    div.rate3{
+        width: 100%;
+        margin-top: 3em;
+        display: block;
+        text-align: center;
+
+    }
+
+    div.container div.rates h2 {
+        display: block;
+        width:96%;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    div.rates{
+        width: 55%
+    }
+    
+    div.container {
+        width: 88%
+    }
+
+    
+}
+
+
+
+/* end rate */
+
+
+
+/* End rates */
+
+
+/* start reviews */
+
+
+div.rev {
+
+}
+
+
+div.rev1 {
+    background-color:  hsl(300, 43%, 22%);
+    width: 30.333333%;
+    border-radius: 3%;
+    margin-top: 3em;
+    height: 200px;
+}
+
+div.rev2 {
+    background-color:  hsl(300, 43%, 22%);
+    width: 30.333333%;
+    border-radius: 3%;
+    margin-top: 4em;
+    margin-left: 3%;
+    height: 200px;
+}
+
+div.rev3 {
+    background-color:  hsl(300, 43%, 22%);
+    width: 30.333333%;
+    border-radius: 3%;
+    margin-top: 5em;
+    margin-left: 3%;
+    height: 200px;
+}
+
+
+
+
+div.rev img {
+    width: 40px;
+}
+
+.cont-rev {
+    margin: 30px 23px
+}
+
+
+.cont-rev h5 {
+    font-family: 'Spartan', sans-serif;
+    display: inline;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: hsla(300, 24%, 96%, 0.795);
+}
+
+.cont-rev h5:not(:first-of-type) {
+    font-family: 'Spartan', sans-serif;
+    display: inline;
+    margin-top: 23px;
+    margin-left: 10px;
+    color: hsl(302deg 25% 45%);
+}
+
+
+
+p.parag {
+    color: hsl(303, 10%, 53%);
+}
+
+@media (max-width: 767px) and (max-width: 500px){
+    div.rev div.rev1 , div.rev div.rev2 , div.rev div.rev3 {
+        width: 84%;
+        height: 215px;
+        display: inline;
+        margin-left: 8%;
+        margin-top: 1em;
+        border-radius: 4%;
+    }
+    p.parag {
+            width: 87%;
+            margin-left: 6.5%;
+    }
+    }
+
+    @media (min-width: 501px) and (max-width: 768px){
+    div.rev div.rev1 , div.rev div.rev2 , div.rev div.rev3 {
+        width: 45%;
+        height: 245px;
+        display: inline;
+        margin-left: 5%;
+        margin-top: 1em;
+        border-radius: 4%;
+    }
+    div.rev div.rev3{
+        margin-left: 27.5%;
+    }
+    }
+
+@media (min-width: 768px) and (max-width:991px) {
+    div.rev div.rev1 , div.rev div.rev2 , div.rev div.rev3 {
+        height: 225px
+    }
+
+    
+}
+
+
+/* end reviews */
+
+
+
+
+
+
+
+
+/* Start framework*/
+
+
+.cantara {
+    text-align: center;
+}
+
+
+.float {
+    float: left;
+}
+
+
+.floatr {
+    float: right;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+
+.image-circle {
+    border-radius: 50%
+}
+
+
+.image-thumbiful {
+    padding: 3px;
+    background-color: #ccc;
+    border: 1px solid #eee;
+}
+/* End framework */
